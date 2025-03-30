@@ -1,6 +1,6 @@
 //Sempre bom criar a lista no começo do projeto
 let listaSecreta = [];
-let numeroLimite = 10;
+let numeroLimite = 15;
 let numeroSecreto = gerarAleatorio();
 let tentativas = 1;
 textoInicial();
