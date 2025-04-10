@@ -35,6 +35,7 @@ function verificarChute(){
         exibirTexto('p', msgtentativa); 
 
         document.getElementById('reiniciar').removeAttribute('disabled');
+        document.getElementById('chute').setAttribute('disabled', true);
         
     } else{
         if(chute > numeroSecreto){
@@ -78,4 +79,5 @@ function reiniciarJogo(){
     textoInicial();
     limparCampo();
     document.getElementById('reiniciar').setAttribute('disabled', true);
+    document.getElementById('chute').removeAttribute('disabled');
 }
